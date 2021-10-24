@@ -1,4 +1,3 @@
-from PySide2 import QtCore
-from PySide2.QtCore import Qt
+from PySide2.QtCore import Qt, QAbstractTableModel, QModelIndex
 
-class WorkerDataList
+class WorkerListModel(QAbstractTableModel):
